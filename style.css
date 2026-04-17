@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    color: #b6ffb6;
+}
+
+header {
+    background-color: #111;
+    color: #7CFC00;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #7CFC00;
+}
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px;
+    box-shadow: 0 0 10px rgba(124, 252, 0, 0.4);
+}
+
+nav a {
+    color: #7CFC00;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #111;
+    background-color: #7CFC00;
+    text-decoration: underline;
+   box-shadow: 0 0 10px #7CFC00;
+}
+
+.container {
+    width: 80%;
+    background-color: #2b2b2b;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #7CFC00;
+    box-shadow: 0 0 15px rgba(124, 252, 0, 0.3);
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #7CFC00;
+    transition: 0.3s;
+}
+
+#profile img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #7CFC00;
+}
+
+
+h2 {
+    color: #7CFC00;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #7CFC00;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #111;
+    color: #7CFC00;
+}
+
+td {
+    background-color: #2b2b2b;
+    color: #b6ffb6;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #7CFC00;
+    border-radius: 5px;
+    background-color: #333;
+    color: #b6ffb6
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #7CFC00;
+}
+
+button {
+    background-color: #111;
+    color: #7CFC00;
+    border: 1px solid #7CFC00;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7CFC00;
+    color: #111;
+}
+
+footer {
+    background-color: #111;
+    color: rgb(53, 235, 50);
+    text-align: center;
+    padding: 5px;
+}
+
+footer:hover {
+    color: #7CFC00;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.cp-number {
+    color: #7CFC00;
+}
+
+.email-link {
+    color: #7CFC00; 
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.email-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #7CFC00;
+}
+
+.fb-link {
+    color: #7CFC00; 
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.fb-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #7CFC00;
+}

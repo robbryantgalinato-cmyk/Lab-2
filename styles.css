@@ -1,0 +1,96 @@
+body {
+    background-color: #3d3a3a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #676060;
+    color: rgb(174, 174, 174);
+    padding: 10px 0;
+    text-align: center;
+}
+.text {
+    background-color: #676060;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+nav {
+    background-color: #676060;
+    color: rgb(143, 140, 140);
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    color: rgb(143, 140, 140);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 200px;
+    height: auto;
+    
+
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #676060;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #676060;
+}
+
+
+input {
+    width: 90%;
+    padding: 8px;
+}
+
+
+button {
+    color: rgb(154, 153, 153);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #676060;
+}
+
+footer {
+    background-color: #676060;
+    color: rgb(143, 140, 140);
+    text-align: center;
+    padding: 1px;
+}
+
+footer:hover {
+    color: #100f0f;
+    cursor: pointer;
+    transition: color 0.3s;
+}

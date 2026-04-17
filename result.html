@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Result</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <a class="back" href="index.html">Back to Profile Page</a>
+
+    <div class="container">
+
+        <h2>Your Submitted Info</h2>
+
+        <p>Thank you for contacting me! Here is the information you submitted:</p>
+
+        <div class="info-box">
+            <strong>Name:</strong> <span id="name"></span>
+        </div>
+
+        <div class="info-box">
+            <strong>Email:</strong> <span id="email"></span>
+        </div>
+
+        <div class="info-box">
+            <strong>Subject:</strong> <span id="subject"></span>
+        </div>
+
+        <div class="info-box">
+            <strong>Message:</strong> <span id="message"></span>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById("name").textContent = localStorage.getItem("name");
+        document.getElementById("email").textContent = localStorage.getItem("email");
+        document.getElementById("subject").textContent = localStorage.getItem("subject");
+        document.getElementById("message").textContent = localStorage.getItem("message");
+    </script>
+
+</body>
+</html>
